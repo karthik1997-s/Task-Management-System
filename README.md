@@ -22,7 +22,7 @@ The project uses the following technologies:
 ## Demo
 
 You can view the live demo of the project at:  
-[Task Management System Demo](https://mellifluous-mermaid-827e3c.netlify.app/)
+[Task Management System Demo](https://task-managementsystem.netlify.app/login)
 
 ## Installation
 
