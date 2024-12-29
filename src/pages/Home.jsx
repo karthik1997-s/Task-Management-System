@@ -8,11 +8,7 @@ const Home = () => {
   const user = JSON.parse(localStorage.getItem("userDetails"));
   const userName = user?.userName || "Guest";
 
-  const handleLogout = () => {
-    // Clear localStorage and navigate to home or login page
-    localStorage.removeItem("user");
-    navigate("/");
-  };
+
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-blue-100 to-blue-300">
