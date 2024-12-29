@@ -110,6 +110,15 @@ const Header = () => {
               </Link>
             </li>
             <li>
+              <Link
+                to="/profile"
+                onClick={() => setIsMenuOpen(false)}
+                className="block text-white hover:text-gray-400"
+              >
+                Tasks
+              </Link>
+            </li> 
+            <li>
               <button
                 onClick={() => {
                   setIsMenuOpen(false);
