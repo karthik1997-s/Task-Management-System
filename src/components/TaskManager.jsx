@@ -35,9 +35,9 @@ const TaskManager = ({ searchQuery }) => {
   );
 
   return (
-    <div className="h-[calc(100%-58px)] flex flex-col px-4 sm:px-8">
+    <div className="h-[calc(100%-58px)] flex flex-col lg:px-4">
       <div className="flex justify-between items-center mb-4 flex-wrap">
-        <h2 className="xs:text-center md:text-left text-xl font-semibold mb-2 sm:mb-0">
+        <h2 className="xs:text-center md:text-left text-xl font-semibold lg:mb-2">
           Task List
         </h2>
         {/* Link to Task Creation Page */}

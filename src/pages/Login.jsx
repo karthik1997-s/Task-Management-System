@@ -26,7 +26,7 @@ const Login = () => {
       localStorage.setItem("userDetails", JSON.stringify(userDetails));
       
       navigate("/");
-      toast.success("Welocome Admin");
+      toast.success("Welcome Admin");
     } else {
       // Failed login
       toast.error("Invalid email or password. Please try again.");
@@ -34,11 +34,11 @@ const Login = () => {
   };
 
   return (
-    <div className=" flex justify-center items-center h-screen bg-[#ffff]">
-      <div className="w-[50%]">
+    <div className=" flex justify-center items-center h-screen bg-[#ffff] lg:flex-row">
+      <div className="lg:w-[50%] xs:hidden">
         <img src={LoginImage} alt="login-img" />
       </div>
-      <div className="w-[50%] flex items-center justify-center bg-gradient-to-br min-h-screen from-blue-400 to-blue-300 ">
+      <div className= "flex items-center justify-center bg-gradient-to-br min-h-screen from-blue-400 to-blue-300 lg:w-[50%] xs:full">
         <div className="bg-white p-6 rounded shadow-md w-full max-w-sm h-max">
           <h2 className="text-2xl font-bold mb-4">Welcome back 👋 Login</h2>
 
