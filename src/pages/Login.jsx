@@ -26,7 +26,7 @@ const Login = () => {
       localStorage.setItem("userDetails", JSON.stringify(userDetails));
       
       navigate("/");
-      toast.success("Welocome Karthik");
+      toast.success("Welocome Admin");
     } else {
       // Failed login
       toast.error("Invalid email or password. Please try again.");
