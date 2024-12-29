@@ -115,7 +115,7 @@ const Header = () => {
                 onClick={() => setIsMenuOpen(false)}
                 className="block text-white hover:text-gray-400"
               >
-                Tasks
+                Profile
               </Link>
             </li> 
             <li>
